@@ -33,8 +33,59 @@
 */ 
 
 
+    //Subject Mark List 
+   
+    $subject_A_mark = 75 ;
+    $subject_B_mark = 80 ;
+    $subject_C_mark = 65 ;
+    $subject_D_mark = 90 ;
+
+    // Total Subject Mark 
+
+    $toral_mark = $subject_A_mark + $subject_B_mark +  $subject_C_mark + $subject_D_mark ;
+
+    // Average Mark
+
+    $average_mark = $toral_mark / 4 ;
+
+    echo $average_mark ;
 
 
+    if ($subject_A_mark <= 32 || $subject_B_mark <= 32 ||  $subject_C_mark <= 32 || $subject_D_mark <= 32){
+        echo "Subject Mark Invalit" ;
+    }elseif ($subject_A_mark <= 100 || $subject_B_mark <= 100 || $subject_C_mark <= 100 || $subject_D_mark <= 100){
+        echo "Subject Mark Invalit" ;
+    }if ($average_mark >= 80 && $average_mark <= 100 ) {
+        echo "You Get A+";
+    }elseif ($average_mark >= 70 && $average_mark <= 79) {
+        echo " You Get A" ;
+
+    }elseif ($average_mark >= 60 && $average_mark <= 69) {
+        echo " You Get A-" ;
+        
+    }elseif ($average_mark >= 50 && $average_mark <= 59) {
+        echo " You Get B" ;
+        
+    }elseif ($average_mark >= 40 && $average_mark <= 49) {
+        echo " You Get C" ;
+        
+    }elseif ($average_mark >= 33 && $average_mark <= 39) {
+        echo " You Get D" ;
+    
+    }else {
+        echo "You are Fail" ;
+    }
+        
+
+        
+    
+
+
+
+
+
+
+    
 
 
 
