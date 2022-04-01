@@ -48,15 +48,17 @@
 
     $average_mark = $toral_mark / 4 ;
 
-    echo $average_mark ;
 
 
-    if ($subject_A_mark <= 32 || $subject_B_mark <= 32 ||  $subject_C_mark <= 32 || $subject_D_mark <= 32){
-        echo "Subject Mark Invalit" ;
-    }elseif ($subject_A_mark <= 100 || $subject_B_mark <= 100 || $subject_C_mark <= 100 || $subject_D_mark <= 100){
-        echo "Subject Mark Invalit" ;
-    }if ($average_mark >= 80 && $average_mark <= 100 ) {
+    if ($subject_A_mark < 0 || $subject_B_mark < 0 || $subject_C_mark < 0 || $subject_D_mark < 0 ){
+        echo "There can be no number below 0 or 0 in the result sheet." ;
+
+    }elseif ($subject_A_mark > 100 || $subject_B_mark > 100 || $subject_C_mark > 100 || $subject_D_mark > 100){
+        echo "In the result sheet, there can be no number above 100 marks." ;
+
+    }elseif ($average_mark >= 80 && $average_mark <= 100 ) {
         echo "You Get A+";
+        
     }elseif ($average_mark >= 70 && $average_mark <= 79) {
         echo " You Get A" ;
 
@@ -76,6 +78,11 @@
         echo "You are Fail" ;
     }
         
+
+
+
+
+    // ================================ Thank Your ==========================
 
         
     
