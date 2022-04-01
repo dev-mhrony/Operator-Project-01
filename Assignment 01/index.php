@@ -12,6 +12,9 @@
 <?php
 
 
+    // ===================== Question =======================
+
+
  /*   Rishita’s subject marks: SubjectA = 75, SubjectB = 80, SubjectC = 65, SubjectD = 90.
 
     Result Calculation formula: Sum all subjects marks and divided by total subject quantity. 
