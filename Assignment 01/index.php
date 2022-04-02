@@ -54,6 +54,8 @@
     $average_mark = $toral_mark / 4 ;
 
 
+    // ===================== If Formula and Elseif Formula Start =======================
+
 
     if ($subject_A_mark < 0 || $subject_B_mark < 0 || $subject_C_mark < 0 || $subject_D_mark < 0 ){
         echo "There can be no number below 0 or 0 in the result sheet." ;
@@ -84,7 +86,7 @@
     }
         
 
-
+    // ===================== If Formula and Elseif Formula End =======================
     
 
     // ================================ Thank Your ==========================
@@ -98,18 +100,6 @@
 
 
     
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
