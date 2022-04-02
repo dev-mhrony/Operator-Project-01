@@ -12,7 +12,7 @@
 <?php
 
 
-    // ===================== Question =======================
+    // ===================== Question Start =======================
 
 
  /*   Rishita’s subject marks: SubjectA = 75, SubjectB = 80, SubjectC = 65, SubjectD = 90.
@@ -34,6 +34,8 @@
     F   = 01 - 39 
 
 */ 
+
+    // ===================== Question End =======================
 
 
     //Subject Mark List 
